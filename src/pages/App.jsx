@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './Main.css';
+import './App.css';
 
 import Button from '../components/Button';
 import Checkbox from '../components/Checkbox';
 
-function Main() {
+function App() {
 //  pages state for checkbox {page1,page2,page3,page4}
   const pages = Array.from({ length: 4 }, (_, index) => `page${index + 1}`);  
 
@@ -40,7 +40,7 @@ function Main() {
     console.log("form submited:",checkedItems)
   }
   return (
-    <div className="App">
+    <div className='App'>
       {/* parent container  */}
 
       <div className='parent-container'>
@@ -83,4 +83,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default App;
