@@ -1,0 +1,24 @@
+.button{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    background-color:#FFCE22;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 8px 15px 0px #1414141F;
+    box-shadow: 0px 0px 4px 0px #1414141A;
+}
+.button:hover{
+    background-color:#FFD84D;
+}
+
+.button-label{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    text-decoration-color: #1F2128;
+}
